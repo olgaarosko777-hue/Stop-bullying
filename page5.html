@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Анімаційний ролик | Медіа</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+           
+            <button class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            
+            
+            <div class="nav-links" id="navLinks">
+                <a href="index.html">Головна</a>
+                <a href="Page1.html">Кібербулінг</a>
+                <a href="Page2.html">Захист даних</a>
+                <a href="page3.html">Види булінгу</a>
+                <a href="page4.html">Загрози</a>
+                <a href="page5.html">Мультик</a>
+                <a href="page6.html">Припинити булінг</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <header class="hero">
+            <span class="badge">НАВЧАЛЬНИЙ АНІМАЦІЙНИЙ ФІЛЬМ</span>
+            <h1>Анімаційний ролик</h1>
+            <p>ВПУ №1, М. РІВНЕ • ГРУПА №12</p>
+        </header>
+
+        <section class="content-card">
+            <h2>Перегляд анімаційного ролику</h2>
+            <video width="100%" controls style="border-radius:12px; background:#000; border: 1px solid var(--border-color);">
+                <source src="roboti/video_mult.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section class="content-card">
+            <h2>Галерея: кадри з анімації</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 20px;">
+                <img src="mylyt/ряба1.png" alt="Кадр 1" style="width: 100%; border-radius: 10px; border: 1px solid var(--border-color);">
+                <img src="mylyt/оксана георгіївна.png" alt="Кадр 2" style="width: 100%; border-radius: 10px; border: 1px solid var(--border-color);">
+                <img src="mylyt/курткф5.png" alt="Кадр 3" style="width: 100%; border-radius: 10px; border: 1px solid var(--border-color);">
+                <img src="mylyt/17 кабінет.png" alt="Кадр 4" style="width: 100%; border-radius: 10px; border: 1px solid var(--border-color);">
+                <img src="mylyt/компютер.png" alt="Кадр 5" style="width: 100%; border-radius: 10px; border: 1px solid var(--border-color);">
+            </div>
+        </section>
+
+        <section class="content-card" style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);">
+            <h2>Як створювався анімаційний ролик</h2>
+            <p style="font-size: 1.1em; line-height: 1.8;">Це зображення створене за допомогою штучного інтелекту. Фото згенероване Gemini на основі образів реальних людей. Сценарій розроблено за участі ChatGPT, а мультимедійна обробка та анімаційні елементи виконані в Google Labs. Проєкт є творчим експериментом на перетині технологій та креативу.</p>
+        </section>
+
+        <section class="content-card">
+            <h2>Технології створення</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
+                
+                <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(102, 126, 234, 0.3);">
+                    <div style="font-size: 3em; margin-bottom: 15px;">🤖</div>
+                    <h3 style="color: var(--accent-color); margin: 0 0 15px 0; font-size: 1.2em;">Штучний інтелект</h3>
+                    <p style="margin: 0; line-height: 1.6; color: #ffffff;">
+                        Зображення згенеровані за допомогою AI на основі реальних образів
+                    </p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, rgba(240, 147, 251, 0.15) 0%, rgba(245, 87, 108, 0.15) 100%); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(240, 147, 251, 0.3);">
+                    <div style="font-size: 3em; margin-bottom: 15px;">🎨</div>
+                    <h3 style="color: var(--accent-color); margin: 0 0 15px 0; font-size: 1.2em;">Gemini</h3>
+                    <p style="margin: 0; line-height: 1.6; color: #ffffff;">
+                        Генерація фотореалістичних зображень персонажів та локацій
+                    </p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, rgba(79, 172, 254, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(79, 172, 254, 0.3);">
+                    <div style="font-size: 3em; margin-bottom: 15px;">💬</div>
+                    <h3 style="color: var(--accent-color); margin: 0 0 15px 0; font-size: 1.2em;">ChatGPT</h3>
+                    <p style="margin: 0; line-height: 1.6; color: #ffffff;">
+                        Розробка сценарію та структури наративу мультфільму
+                    </p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, rgba(250, 177, 160, 0.15) 0%, rgba(255, 159, 122, 0.15) 100%); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(250, 177, 160, 0.3);">
+                    <div style="font-size: 3em; margin-bottom: 15px;">🎬</div>
+                    <h3 style="color: var(--accent-color); margin: 0 0 15px 0; font-size: 1.2em;">Google Labs</h3>
+                    <p style="margin: 0; line-height: 1.6; color: #ffffff;">
+                        Мультимедійна обробка та створення анімаційних елементів
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="content-card">
+            <h2>Створення анімаційного мультика в Google Lab</h2>
+            <p style="font-size: 1.1em; line-height: 1.8; margin-bottom: 30px;">У середовищі Google Lab створювався анімаційний мультик. Для його створення використовувалися промпти з детально прописаним сценарієм. Кожен сценарій поділявся на окремі сцени, до яких підбиралися та додавалися відповідні зображення. Ці зображення візуально доповнювали зміст сцен і допомагали краще передати ідею та послідовність подій.</p>
+
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
+                
+                <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 25px; border-radius: 12px; color: white;">
+                    <h3 style="margin-top: 0; font-size: 1.3em;">1️⃣ Промпти зі сценарієм</h3>
+                    <p style="margin: 15px 0; line-height: 1.8;">
+                        Детальні промпти з повним описом кожної сцени, персонажів та їхніх дій
+                    </p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 25px; border-radius: 12px; color: white;">
+                    <h3 style="margin-top: 0; font-size: 1.3em;">2️⃣ Поділ на сцени</h3>
+                    <p style="margin: 15px 0; line-height: 1.8;">
+                        Кожен сценарій розбивався на окремі сцени для кращої деталізації
+                    </p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 25px; border-radius: 12px; color: white;">
+                    <h3 style="margin-top: 0; font-size: 1.3em;">3️⃣ Підбір зображень</h3>
+                    <p style="margin: 15px 0; line-height: 1.8;">
+                        До кожної сцени підбиралися відповідні зображення для візуалізації
+                    </p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, #faa680 0%, #ff9f7a 100%); padding: 25px; border-radius: 12px; color: white;">
+                    <h3 style="margin-top: 0; font-size: 1.3em;">4️⃣ Візуальне доповнення</h3>
+                    <p style="margin: 15px 0; line-height: 1.8;">
+                        Зображення передавали ідею та послідовність подій у мультику
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="content-card">
+            <h2>Детальний процес створення</h2>
+            
+            <div style="margin-top: 30px;">
+                <h3 class="text-accent">📋 Етап 1: Розробка концепції</h3>
+                <p>На початковому етапі визначалася основна тема та сюжет мультфільму. Формувалися ключові сцени, які мали увійти до фінального ролику. Створювався загальний план оповідання з урахуванням хронології подій.</p>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 class="text-accent">✍️ Етап 2: Написання сценарію</h3>
+                <p>За допомогою ChatGPT створювався детальний сценарій з описом кожної сцени. Сценарій включав діалоги персонажів, їхні емоції, дії та взаємодію. Кожна репліка та дія ретельно продумувалися для логічності оповідання.</p>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 class="text-accent">🎨 Етап 3: Генерація персонажів</h3>
+                <p>Використовуючи Gemini, створювалися унікальні образи персонажів на основі описів реальних людей. Кожен персонаж отримував індивідуальні риси обличчя, зачіску, одяг. Генерувалися різні емоційні стани персонажів для різних сцен.</p>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 class="text-accent">🏫 Етап 4: Створення локацій</h3>
+                <p>Для мультфільму генерувалися реалістичні зображення приміщень: класні кімнати (включно з кабінетом №17), коридори, комп'ютерні класи. Локації створювалися з урахуванням деталей інтер'єру для максимальної достовірності.</p>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 class="text-accent">🎬 Етап 5: Компонування сцен</h3>
+                <p>У Google Lab всі згенеровані зображення об'єднувалися в логічну послідовність. Кожна сцена складалася з кількох кадрів, що показували розвиток подій. До зображень додавалися текстові вставки з діалогами.</p>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 class="text-accent">✨ Етап 6: Анімація та ефекти</h3>
+                <p>Статичні зображення оживлялися за допомогою анімаційних ефектів: переходів між кадрами, руху камери, появи та зникнення елементів. Додавалися візуальні акценти для підкреслення важливих моментів.</p>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 class="text-accent">🎵 Етап 7: Звукове оформлення</h3>
+                <p>На завершальному етапі додавалося звукове оформлення: фоновий музичний супровід, звукові ефекти. Музика підбиралася відповідно до настрою кожного епізоду та загальної атмосфери.</p>
+            </div>
+
+            <div style="margin-top: 30px;">
+                <h3 class="text-accent">🎯 Етап 8: Фінальний монтаж</h3>
+                <p>Всі елементи поєднувалися в цілісний мультфільм. Перевірялася синхронізація відео та звуку, плавність переходів, відповідність темпоритму. Додавалися вступні та фінальні титри з інформацією про проєкт.</p>
+            </div>
+        </section>
+
+        <section class="content-card" style="background: linear-gradient(135deg, rgba(240, 147, 251, 0.1) 0%, rgba(245, 87, 108, 0.1) 100%);">
+            <h2>Особливості створення промптів</h2>
+            <p style="margin-bottom: 20px;">Для кожної сцени створювалися детальні промпти, що включали:</p>
+            
+            <div style="display: grid; gap: 15px; margin-top: 20px;">
+                <div style="background: rgba(102, 126, 234, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #667eea;">
+                    <strong>📐 Композиція кадру:</strong> Ракурс зйомки, розташування персонажів, передній та задній план
+                </div>
+                
+                <div style="background: rgba(240, 147, 251, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #f093fb;">
+                    <strong>😊 Емоції персонажів:</strong> Вираз обличчя, пози тіла, жести
+                </div>
+                
+                <div style="background: rgba(79, 172, 254, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #4facfe;">
+                    <strong>💡 Освітлення:</strong> Тип освітлення (денне, штучне), тіні, загальна атмосфера сцени
+                </div>
+                
+                <div style="background: rgba(250, 177, 160, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #faa680;">
+                    <strong>🏢 Деталі оточення:</strong> Елементи інтер'єру, предмети, що створюють реалістичність
+                </div>
+
+                <div style="background: rgba(159, 122, 234, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #9f7aea;">
+                    <strong>🎨 Колірна гама:</strong> Підбір кольорів, що відповідають настрою епізоду
+                </div>
+
+                <div style="background: rgba(255, 122, 122, 0.1); padding: 15px; border-radius: 8px; border-left: 4px solid #ff7a7a;">
+                    <strong>🎭 Настрій сцени:</strong> Загальна емоційна тональність кожного кадру
+                </div>
+            </div>
+        </section>
+
+        <section class="content-card">
+            <h2>Технічні деталі роботи</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
+                
+                <div style="background: linear-gradient(135deg, rgba(102, 126, 234, 0.15) 0%, rgba(118, 75, 162, 0.15) 100%); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(102, 126, 234, 0.3);">
+                    <div style="font-size: 3em; margin-bottom: 15px;">⚙️</div>
+                    <h3 style="color: var(--accent-color); margin: 0 0 15px 0; font-size: 1.2em;">Обробка зображень</h3>
+                    <p style="margin: 0; line-height: 1.6; color: #ffffff;">
+                        Кожне згенероване зображення проходило обробку для узгодження стилю
+                    </p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, rgba(240, 147, 251, 0.15) 0%, rgba(245, 87, 108, 0.15) 100%); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(240, 147, 251, 0.3);">
+                    <div style="font-size: 3em; margin-bottom: 15px;">🔄</div>
+                    <h3 style="color: var(--accent-color); margin: 0 0 15px 0; font-size: 1.2em;">Синхронізація</h3>
+                    <p style="margin: 0; line-height: 1.6; color: #ffffff;">
+                        Узгодження всіх елементів: відео, звуку, тексту для цілісності
+                    </p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, rgba(79, 172, 254, 0.15) 0%, rgba(0, 242, 254, 0.15) 100%); padding: 30px; border-radius: 15px; backdrop-filter: blur(10px); border: 1px solid rgba(79, 172, 254, 0.3);">
+                    <div style="font-size: 3em; margin-bottom: 15px;">⏱️</div>
+                    <h3 style="color: var(--accent-color); margin: 0 0 15px 0; font-size: 1.2em;">Темпоритм</h3>
+                    <p style="margin: 0; line-height: 1.6; color: #ffffff;">
+                        Налаштування швидкості зміни кадрів та тривалості сцен
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="content-card" style="background: linear-gradient(135deg, rgba(79, 172, 254, 0.1) 0%, rgba(0, 242, 254, 0.1) 100%);">
+            <h2>Результат проєкту</h2>
+            <p style="font-size: 1.1em; line-height: 1.8;">Завдяки поєднанню сучасних технологій штучного інтелекту та креативного підходу вдалося створити повноцінний анімаційний мультфільм. Проєкт демонструє можливості AI-інструментів у творчій сфері та відкриває нові горизонти для створення освітнього контенту. Використання Google Labs, Gemini та ChatGPT дозволило реалізувати складний проєкт силами невеликої команди студентів.</p>
+        </section>
+
+    </div>
+    
+    <footer>
+        <p>© 2026 Проєкт "Безпека та Повага"</p>
+    </footer>
+
+    
+    <script>
+        const burger = document.getElementById('burger');
+        const navLinks = document.getElementById('navLinks');
+
+        burger.addEventListener('click', () => {
+            burger.classList.toggle('active');
+            navLinks.classList.toggle('active');
+        });
+
+       
+        const links = navLinks.querySelectorAll('a');
+        links.forEach(link => {
+            link.addEventListener('click', () => {
+                burger.classList.remove('active');
+                navLinks.classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
